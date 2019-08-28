@@ -44,7 +44,7 @@ article {
     margin-left: 10px;
 }
 
-.headings, .content p {
+.headings, .content p{
     line-height: 50px;
     margin-top: 5px;
     background: #ebebeb;
@@ -62,7 +62,12 @@ aside {
 }
 
 footer {
+    position: relative;
+    bottom: -300px;
     margin-top: -10px;
+    background: #ebebeb;
+    color: #777;
+    height: 75px;
 }
 
 .clearfix::after {
