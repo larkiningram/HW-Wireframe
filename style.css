@@ -1,26 +1,72 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     background: #777;
-    width: 960px:
+    width: 960px;
     font-size: 18px;
+    margin: 0 auto;
 }
+
+
+header, nav, footer {
+    line-height: 70px;
+}
+
+nav {
+    margin-top: -10px;
+}
+
+.container {
+    padding: 0 0 15px 0;
+    background: #ebebeb;
+    width: 495px;
+    float: left;
+    margin-bottom: 15px;    
+}
+
 
 header, nav, section, aside, footer {
     background: #ebebeb;
 }
 
 article {
+    float:left; 
     color: #ebebeb;
     background: #777;
+    width: 475px;
+    height: 200px;
+    padding: 15px;
+    margin-left: 10px;
 }
 
-h1, p {
+.headings, .content p {
+    line-height: 50px;
+    margin-top: 5px;
+    background: #ebebeb;
     color: #777;
-    background: #ebebeb
 }
 
-section {
-    width: 495px;
-    
+.content {
+    margin-top: -5px;
+}
+
+aside {
+    float: right;
+    width: 440px;
+    height: 272px;
+}
+
+footer {
+    margin-top: -10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear:both;
 }
